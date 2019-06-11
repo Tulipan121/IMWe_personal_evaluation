@@ -5,7 +5,7 @@
 #     Last edited: 11. 6. 2019
 #     Edited by: Blaž
 #
-#     You'll need R and R Studio on your computer to run the script.	
+#     You'll need R, R Studio and Windows Office on your computer to run the script.	
 #
 ####################################################################################
 
