@@ -5,7 +5,11 @@ library("knitr")
 
 preberi_tabelo <- gs_url("https://docs.google.com/spreadsheets/d/1bD-dNmeMfOCTzCigJZdEAqiT9sTSp2y84PI1f7WS-WY/edit#gid=1035681780")
 
-data <- gs_read(gs_title("Personal evaluation (Responses)"), 1)
+data_1 <- gs_read(gs_title("Personal evaluation (Responses)"), 1)
+data_2 <- gs_read(gs_title("Personal evaluation (Responses)"), 2)
+data_3 <- gs_read(gs_title("Personal evaluation (Responses)"), 3)
+
+data <- rbind(data_1, data_2, data_3)
 
 question <- "What would you like to say to "
 
